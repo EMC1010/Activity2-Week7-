@@ -5,67 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F8B7C6"
-    tools:context=".EmploymentActivity"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="65dp">
-
-    <EditText
-        android:id="@+id/editTextTextPersonName32"
-        android:layout_width="180dp"
-        android:layout_height="27dp"
-        android:backgroundTint="#0C0C0C"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.869" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName30"
-        android:layout_width="180dp"
-        android:layout_height="27dp"
-        android:backgroundTint="#0C0C0C"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName31"
-        android:layout_width="180dp"
-        android:layout_height="27dp"
-        android:backgroundTint="#0C0C0C"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+    tools:context=".ReferencesActivity">
 
     <TextView
-        android:id="@+id/textView37"
+        android:id="@+id/textView53"
+        android:layout_width="313dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="I hereby acknowledge that all information are true."
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Acknowledgement"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="19dp"
+        android:background="#0C0C0C"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView50"
         android:layout_width="151dp"
         android:layout_height="27dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Trainings/Seminars"
+        android:text="Name"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
@@ -74,11 +65,11 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName29"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName41"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -88,46 +79,14 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
-
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="151dp"
-        android:layout_height="27dp"
-        android:fontFamily="@font/montserrat_medium"
-        android:text="Expected Salary"
-        android:textAlignment="center"
-        android:textColor="#0C0C0C"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="151dp"
-        android:layout_height="27dp"
-        android:fontFamily="@font/montserrat_medium"
-        android:text="Reason for Leaving"
-        android:textAlignment="center"
-        android:textColor="#0C0C0C"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.656" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName28"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName42"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -137,13 +96,13 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.656" />
+        app:layout_constraintVertical_bias="0.559" />
 
     <TextView
-        android:id="@+id/textView34"
+        android:id="@+id/textView47"
         android:layout_width="151dp"
         android:layout_height="27dp"
         android:fontFamily="@font/montserrat_medium"
@@ -156,11 +115,43 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.559" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Company"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Phone Number"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName27"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName43"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -170,14 +161,14 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.634" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName26"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName44"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -187,17 +178,17 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <TextView
-        android:id="@+id/textView33"
+        android:id="@+id/textView46"
         android:layout_width="151dp"
         android:layout_height="27dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Current Salary"
+        android:text="Name"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
@@ -206,11 +197,11 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.522" />
+        app:layout_constraintVertical_bias="0.332" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName25"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName37"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -220,30 +211,14 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="151dp"
-        android:layout_height="27dp"
-        android:fontFamily="@font/montserrat_medium"
-        android:text="Work Number"
-        android:textAlignment="center"
-        android:textColor="#0C0C0C"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+        app:layout_constraintVertical_bias="0.41" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName24"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName38"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -253,17 +228,17 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.372" />
 
     <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView43"
         android:layout_width="151dp"
         android:layout_height="27dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Work Address"
+        android:text="Position"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
@@ -272,11 +247,43 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.37" />
+        app:layout_constraintVertical_bias="0.372" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Company"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Phone Number"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName23"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName39"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -286,30 +293,14 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
-
-    <TextView
-        android:id="@+id/textView30"
-        android:layout_width="151dp"
-        android:layout_height="27dp"
-        android:fontFamily="@font/montserrat_medium"
-        android:text="Date of Employment"
-        android:textAlignment="center"
-        android:textColor="#0C0C0C"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.265" />
+        app:layout_constraintVertical_bias="0.447" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName16"
-        android:layout_width="180dp"
+        android:id="@+id/editTextTextPersonName40"
+        android:layout_width="150dp"
         android:layout_height="27dp"
         android:backgroundTint="#0C0C0C"
         android:ems="10"
@@ -319,17 +310,17 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintHorizontal_bias="0.892"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.332" />
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/textView42"
         android:layout_width="151dp"
         android:layout_height="27dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Name of Employer"
+        android:text="Phone Number"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
@@ -338,14 +329,31 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.259" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName36"
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:backgroundTint="#0C0C0C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/textView40"
         android:layout_width="151dp"
         android:layout_height="27dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Currently Working?"
+        android:text="Name"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="12sp"
@@ -354,14 +362,97 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.12" />
+        app:layout_constraintVertical_bias="0.144" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/textView38"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Position"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName33"
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:backgroundTint="#0C0C0C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName35"
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:backgroundTint="#0C0C0C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName34"
+        android:layout_width="150dp"
+        android:layout_height="27dp"
+        android:backgroundTint="#0C0C0C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="151dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Company"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <TextView
+        android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_medium"
-        android:text="EMPLOYMENT"
+        android:text="CHARACTER REFERENCE"
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="22sp"
@@ -373,28 +464,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.04" />
 
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="70dp"
-        android:layout_height="28dp"
-        android:text="Yes"
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
-
-    <RadioButton
-        android:id="@+id/radioButton3"
-        android:layout_width="70dp"
-        android:layout_height="28dp"
-        android:text="No"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.803"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119" />
-
+        app:layout_constraintVertical_bias="0.831" />
 </androidx.constraintlayout.widget.ConstraintLayout>
